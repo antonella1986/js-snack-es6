@@ -24,8 +24,15 @@ const biciclette = [{
     }
 ]
 
+let biciclettaLeggera = biciclette[0]
 
+for (let i = 0; i < biciclette.length; i++) {
+    if (biciclette[i].peso < biciclettaLeggera.peso) {
+        biciclettaLeggera = biciclette[i];
+    }
+}
 
+console.log(biciclettaLeggera);
 
 
 

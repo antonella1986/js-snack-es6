@@ -51,7 +51,11 @@ const squadre = [{
     nome : "Bari",
     puntiFatti : 0,
     falliSubiti : 0
+}]
+
+let punti = puntiFatti.value
+let falli = []
+
+function numeriRandom(min, max) {
+    return Math.floor(Math.random() * 50) + 1;
 }
-]
-
-

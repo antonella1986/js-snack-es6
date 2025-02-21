@@ -26,7 +26,7 @@ for (let i = 0; i < biciclette.length; i++) {
     }
 }
 
-console.log(`La bicicletta più leggera è ${biciclettaLeggera}`);
+console.log(biciclettaLeggera);
 
 /*Snack2
 Creare un array di oggetti di squadre di calcio.
